@@ -25,8 +25,7 @@ const pubsub = new PubSub({ blockchain, transactionPool, redisUrl: REDIS_URL });
 const transactionMiner = new TransactionMiner({
   blockchain,
   transactionPool,
-  wallet,
-  pubsub
+  
 });
 
 setTimeout(() => pubsub.broadcastChain(), 1500);
