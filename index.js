@@ -22,7 +22,11 @@ const blockchain = new Blockchain();
 const transactionPool = new TransactionPool();
 const wallet = new Wallet();
 const pubsub = new PubSub({ blockchain, transactionPool, redisUrl: REDIS_URL });
-const transactio
+const transactionMiner = new TransactionMiner({
+  blockchain,
+  transactionPool,
+  wallet,
+  pubsub
 });
 
 setTimeout(() => pubsub.broadcastChain(), 1500);
