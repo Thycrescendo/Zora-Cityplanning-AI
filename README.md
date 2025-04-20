@@ -1,6 +1,6 @@
-# Participatory Planning
+# 🌆 Zora-Cityplanning+AI  
 
-An interactive 3D web application enabling citizens to engage in urban planning, using the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/). This is a non-commercial demo application made by the Esri R&D Center Zurich. It is intended for presentations or as a starting point for new projects.
+**Decentralized Participatory Urban Planning Powered by AI & Zora Coins** 
 
 [![screenshot](./screenshot.png)](https://esri.github.io/participatory-planning)
 
@@ -8,9 +8,21 @@ The app uses various API features such as [3D drawing](https://developers.arcgis
 
 On the technical side the app is built using [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [vite](https://vite.dev/) and [npm](https://www.npmjs.com/)
 
-## Instructions
 
-A live version is available [here](https://esri.github.io/participatory-planning).
+## 🚨 Problem  
+Urban planning is broken:  
+- Decisions are made **top-down** with little community input.  
+- Funding is **opaque** and slow.  
+- Projects fail to reflect real-world needs (e.g., bike lanes that flood, parks nobody uses).  
+
+Zora-Cityplanning+AI empowers citizens to **design, fund, and trade** the future of their cities.  
+
+## ✨ Solution  
+- **AI-Driven Proposals**: Predict project impact (traffic, environment, cost) using machine learning.  
+- **Tokenized Governance**: Mint ERC-20 coins for proposals via Zora’s Coins Protocol.  
+- **Onchain Democracy**: Stake tokens to vote, trade, and earn fees from implemented projects.  
+
+## Instructions
 
 To run the source code locally, follow these steps:
 
