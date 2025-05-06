@@ -45,9 +45,3 @@ The following external libraries, APIs, open datasets and specifications were us
 - Icons from [Font Awesome](https://fontawesome.com/)
 - [Motion](https://motion.dev/) for animations
 - [Sketchfab widget](https://sketchfab.com/developers/download-api/downloading-models/javascript) for downloading glTF models
-
-## Disclaimer
-
-This demo application is for illustrative purposes only and it is not maintained. The area in Dumbo, Brooklyn NY used in the application is a fictional redevelopment area. There is no support available for deployment or development of the application.
-
-
