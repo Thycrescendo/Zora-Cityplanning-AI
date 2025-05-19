@@ -2585,13 +2585,13 @@
   resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.7.60.tgz#0de96b93519cad804c82f96faebceda836cb24c0"
   integrity sha512-vA3rLyqdxBrVo1FWSsbyoecaqWTV+vgPRf0QKeM7kVDG0r+lHUqd7zQDv1TO9k4BcAoNzNDSNrrel24Mk6addA==
 
-"@zoralabs/coins-sdk@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@zoralabs/coins-sdk/-/coins-sdk-0.1.0.tgz#384d7bf470375891414238743b5e34ece992eaec"
-  integrity sha512-4o6OZrjE4jf/FVAcRjWC0acrjiY+YVD1gB8oxLoFt3GzGn1+uiTtOF/u64oSkzzE9OP0UWkpzvouurrYFw3Bkw==
+"@zoralabs/coins-sdk@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@zoralabs/coins-sdk/-/coins-sdk-0.1.1.tgz#1a2eb43a3db54f089d1108f1a67fdac11efedd18"
+  integrity sha512-bi0fSZnARUk1AHBn0/Wcke1CIFabVJ/nAIJBb4iOv2VCIWqDY5lEkLq4JgLOJfluUwrGljdbS4w9ONMWarRUWA==
   dependencies:
     "@hey-api/client-fetch" "^0.8.3"
-    "@zoralabs/coins" "^0.7.1"
+    "@zoralabs/protocol-deployments" "^0.5.5"
 
 "@zoralabs/coins@^0.7.1":
   version "0.7.1"
@@ -2600,6 +2600,11 @@
   dependencies:
     "@openzeppelin/contracts" "^5.0.2"
     "@openzeppelin/contracts-upgradeable" "^5.0.2"
+
+"@zoralabs/protocol-deployments@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@zoralabs/protocol-deployments/-/protocol-deployments-0.5.5.tgz#bcae7abe0749bac9f6d6d82ac0d985b4debe3d2f"
+  integrity sha512-jRZtMIVBNoIf5TcsaXSgoUY3RDeH0tPLhqv1Oxf/cecVqfPKR5PjX+y92wgbGFBFTj/UqqAJCgyMUFa9yB/m5A==
 
 abitype@1.0.8, abitype@^1.0.6:
   version "1.0.8"
@@ -3204,10 +3209,10 @@ etag@^1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
-ethers@^6.13.7:
-  version "6.13.7"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.13.7.tgz#7457fcb32413b441a3ee6e9f4cd63bf782de6226"
-  integrity sha512-qbaJ0uIrjh+huP1Lad2f2QtzW5dcqSVjIzVH6yWB4dKoMuj2WqYz5aMeeQTCNpAKgTJBM5J9vcc2cYJ23UAimQ==
+ethers@^6.14.1:
+  version "6.14.1"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.14.1.tgz#96b5e967d9c3c66c6b64304d8e7669a761d6fca3"
+  integrity sha512-JnFiPFi3sK2Z6y7jZ3qrafDMwiXmU+6cNZ0M+kPq+mTy9skqEzwqAdFW3nb/em2xjlIVXX6Lz8ID6i3LmS4+fQ==
   dependencies:
     "@adraffy/ens-normalize" "1.10.1"
     "@noble/curves" "1.2.0"
@@ -3627,10 +3632,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-isows@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/isows/-/isows-1.0.6.tgz#0da29d706fa51551c663c627ace42769850f86e7"
-  integrity sha512-lPHCayd40oW98/I0uvgaHKWCSvkzY27LjWLbtzOm64yQ+G3Q5npjjbdppU65iZXkK1Zt+kH9pfegli0AYfwYYw==
+isows@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/isows/-/isows-1.0.7.tgz#1c06400b7eed216fbba3bcbd68f12490fc342915"
+  integrity sha512-I1fSfDCZL5P0v33sVqeTDSpcstAg/N+wF5HS033mogOVIp4B+oHC7oOCsA3axAbBSGTJ8QubbNmnIRN/h8U7hg==
 
 jackspeak@^3.1.2:
   version "3.4.3"
@@ -4782,17 +4787,17 @@ vary@^1, vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-viem@^2.29.0:
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/viem/-/viem-2.29.0.tgz#acaf936e534f61a2dfccd8128acce92bc724aba7"
-  integrity sha512-N6GeIuuay/spDyw+5FbSuNIkVN0da+jGOjdlC0bdatIN+N0jtOf9Zfj0pbXgpIJGwnM9ocxzTRt0HZVbHBdL2Q==
+viem@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.29.4.tgz#f727c868056198de854a7c18f672a7ead7875226"
+  integrity sha512-Dhyae+w1LKKpYVXypGjBnZ3WU5EHl/Uip5RtVwVRYSVxD5VvHzqKzIfbFU1KP4vnnh3++ZNgLjBY/kVT/tPrrg==
   dependencies:
     "@noble/curves" "1.8.2"
     "@noble/hashes" "1.7.2"
     "@scure/bip32" "1.6.2"
     "@scure/bip39" "1.5.4"
     abitype "1.0.8"
-    isows "1.0.6"
+    isows "1.0.7"
     ox "0.6.9"
     ws "8.18.1"
 
