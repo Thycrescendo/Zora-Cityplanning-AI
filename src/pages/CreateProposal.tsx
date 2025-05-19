@@ -1,5 +1,5 @@
-import { useWallet } from '../arcgis/hooks';
-import { useCoin } from '../contracts';
+import { useWallet } from '../arcgis/hooks/useWallet';
+import { useCoin } from '../contracts/useCoin';
 
 export default function CreateProposal() {
   const { userAddress, connect } = useWallet()
