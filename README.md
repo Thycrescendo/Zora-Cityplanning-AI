@@ -39,7 +39,7 @@ If you would like to use the app for a different area or city, see the [CONFIGUR
 
 ## Resources
 
-The following external libraries, APIs, open datasets and specifications were used to make this application:
+These are the  external libraries, APIs, open datasets and specifications were used to make this application:
 
 - [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/)
 - Icons from [Font Awesome](https://fontawesome.com/)
